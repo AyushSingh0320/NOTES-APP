@@ -89,34 +89,7 @@ src/
 - Data persists across browser sessions
 - No data loss on page refresh
 
-## Contributing
 
-Feel free to contribute to this project by:
-1. Forking the repository
-2. Creating a new branch
-3. Making your changes
-4. Submitting a pull request
 
-## Future Enhancements
 
-- [ ] User authentication
-- [ ] Rich text editing
-- [ ] Note categories/labels
-- [ ] Search functionality
-- [ ] Dark mode
-- [ ] Export/Import notes
-- [ ] Due dates and reminders
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Author
-
-[AYUSH]
-
-## Acknowledgments
-
-- Material Icons for the beautiful icons
-- Tailwind CSS for the styling framework
-- Google Fonts for the typography 
