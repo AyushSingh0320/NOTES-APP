@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive - NoteIt</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-amber-200" data-page="archive">
+    <header class="h-25">
+        <div class= "bg-amber-400 flex justify-between items-center" style="height: 88px; padding: 0 3rem;">
+            <!-- <img src="/assets/notes-sm.png"> -->
+            <div class="d-flex items-center" style="margin-left: 2rem;">
+                <div class="flex items-center gap-4" style="background: rgba(255, 255, 255, 0.15); padding: 0.5rem 1.2rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.background='rgba(255, 255, 255, 0.25)'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)'" onmouseout="this.style.background='rgba(255, 255, 255, 0.15)'; this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.05)'">
+                    <img class="w-9 h-7" src="/assets/notes-sm.png" style="display: block; filter: drop-shadow(0 1px 1px rgba(0,0,0,0.1));">
+                    <a href="./index.html" style="font-size: 1.8rem; font-weight: 600; letter-spacing: 1px; color: #1a1a1a; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); line-height: 1; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;">NoteIt</a>
+                </div>
+            </div>
+        
+      
+             <ul class="flex items-center" style="margin-right: 2rem; gap: 1.5rem;">
+                <li class="flex items-center">
+                    <a href="./index.html" style="font-size: 1.1rem; font-weight: 500; line-height: 1; transition: all 0.3s ease; padding: 0.5rem 1.2rem; border-radius: 8px; background: rgba(255, 255, 255, 0.15); box-shadow: 0 2px 4px rgba(0,0,0,0.05); color: #1a1a1a; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;" onmouseover="this.style.background='rgba(255, 255, 255, 0.25)'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)'" onmouseout="this.style.background='rgba(255, 255, 255, 0.15)'; this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.05)'">Home</a>
+                </li>
+                <li class="flex items-center">
+                    <a href="./archive1.html" style="font-size: 1.1rem; font-weight: 500; line-height: 1; transition: all 0.3s ease; padding: 0.5rem 1.2rem; border-radius: 8px; background: rgba(255, 255, 255, 0.15); box-shadow: 0 2px 4px rgba(0,0,0,0.05); color: #1a1a1a; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;" onmouseover="this.style.background='rgba(255, 255, 255, 0.25)'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)'" onmouseout="this.style.background='rgba(255, 255, 255, 0.15)'; this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.05)'">Archive</a>
+                </li>
+            </ul>
+        
+          </div>
+    </header>
+    <div class="archive-notes">
+        <div>Archived Notes</div>
+        <div class="archive-notes-container d-flex wrap gap-md"></div>
+    </div>
+
+    <script type="module" src="./archive.js"></script>
+</body>
+
+</html>
