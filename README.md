@@ -11,7 +11,7 @@ NoteIt is a clean, modern notes application built with  JavaScript and Tailwind 
 - 💾 Persistent storage using localStorage
 - 🎨 Modern UI with hover effects and animations
 - 📱 Responsive design
-- 🔄 Real-time updates
+
 
 ## Technologies Used
 
