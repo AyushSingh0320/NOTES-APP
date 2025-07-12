@@ -1,0 +1,56 @@
+@media (max-width: 600px) {
+  /* Header logo and nav: stack vertically and center */
+  header .flex,
+  header .d-flex {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    height: auto !important;
+    row-gap: 0.5rem !important;
+    column-gap: 0.5rem !important;
+  }
+  header ul.flex.items-center {
+    margin: 0 !important;
+    gap: 0.5rem !important;
+    flex-direction: column !important;
+    width: 100%;
+    justify-content: center;
+  }
+  header .d-flex.items-center {
+    margin: 0 !important;
+    width: 100%;
+    justify-content: center;
+  }
+  /* Add gap between logo and Home link when in a row */
+  header .flex.items-center > .d-flex.items-center,
+  header .flex.items-center > ul.flex.items-center {
+    margin-bottom: 0.5rem !important;
+  }
+  /* Logo image and text: center and reduce size */
+  header img.w-9.h-7 {
+    width: 40px !important;
+    height: 32px !important;
+  }
+  header a[style*="font-size: 1.8rem"] {
+    font-size: 1.2rem !important;
+  }
+
+  /* Notes card: prevent button overflow */
+  .single-note {
+    min-width: 0 !important;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    padding: 0.5rem !important;
+  }
+  .single-note .options {
+    flex-wrap: wrap !important;
+    gap: 0.25rem !important;
+  }
+  .single-note .button,
+  .single-note .del-btn {
+    min-width: 36px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+} 
