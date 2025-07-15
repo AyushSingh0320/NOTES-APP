@@ -38,10 +38,11 @@
 
   /* Notes card: prevent button overflow */
   .single-note {
+    width: 100% !important;
     min-width: 0 !important;
-    word-break: break-word;
-    overflow-wrap: break-word;
-    padding: 0.5rem !important;
+    max-width: 100% !important;
+    flex: 1 1 100% !important;
+    box-sizing: border-box;
   }
   .single-note .options {
     flex-wrap: wrap !important;
@@ -51,6 +52,17 @@
   .single-note .del-btn {
     min-width: 36px;
     max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .notes-container,
+  .pinned-notes-container {
+    flex-direction: column !important;
+    align-items: stretch;
+  }
+  .notes-container > *,
+  .pinned-notes-container > * {
+    min-width: 100%;
     box-sizing: border-box;
   }
 } 
